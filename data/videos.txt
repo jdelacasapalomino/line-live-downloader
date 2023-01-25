@@ -1,0 +1,3 @@
+https://live.line.me/channels/exampleChannelID/broadcast/exampleBroadcastID
+https://live.line.me/channels/exampleChannelID/broadcast/exampleBroadcastID
+https://live.line.me/channels/exampleChannelID/broadcast/exampleBroadcastID
