@@ -1,6 +1,7 @@
 import * as fs from 'fs'
 import fetch from 'node-fetch'
 import minyami from 'minyami';
+import moment from "moment";
 
 const { ArchiveDownloader } = minyami;
 
@@ -38,7 +39,8 @@ async function init() {
 
 async function downloadVideo({title, url, date}) {
     const dir = './data/ts';
-    const output = `data/ts/${date}_${title}.ts`
+    const dateString = moment.utc(date * 1000).format('YYYYMMDDHHmm')
+    const output = `data/ts/${dateString}_${title}.ts`
 
     if (!fs.existsSync(dir)){
         fs.mkdirSync(dir);

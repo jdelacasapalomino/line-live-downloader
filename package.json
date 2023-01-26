@@ -15,6 +15,8 @@
   "dependencies": {
     "handbrake-js": "^6.0.0",
     "minyami": "^4.8.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.40",
     "node-fetch": "^3.3.0"
   }
 }
